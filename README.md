@@ -1,6 +1,6 @@
 # 🛒 Supermarket App
 
-A full-stack supermarket dashboard that seamlessly combines real-time data scraping, intelligent filtering, and multi-dimensional visualization. Designed to help users make smarter, more cost-effective grocery decisions, the platform enables efficient cross-supermarket product comparison based on price, brand, and detailed attributes — turning raw data into actionable shopping insights.
+A full-stack supermarket dashboard that seamlessly combines real-time data scraping, intelligent filtering, and multi-dimensional visualization. Designed to help users make smarter, more cost-effective grocery decisions, the platform enables efficient cross-supermarket product comparison based on price, brand, and detailed attributes—turning raw data into actionable shopping insights.
 
 ## 🔍 Key Features
 
@@ -10,11 +10,11 @@ A full-stack supermarket dashboard that seamlessly combines real-time data scrap
 
 - **📊 Interactive Visualizations**
 
-  Leverages Plotly and Material UI to deliver dynamic, interactive charts that visualize key sales metrics over time — enabling users to spot trends, compare performance, and interpret data at a glance.
+  Leverages Plotly and Material UI to deliver dynamic, interactive charts that visualize key sales metrics over time—enabling users to spot trends, compare performance, and gain instant insights.
 
 - **🔎 Smart Multi-Dimensional Filtering**
 
-  Enables deep data slicing by date, category, and other metadata through intuitive dropdowns, buttons, and interactive controls — ideal for customized analytics and user-driven insights.
+  Enables deep data slicing by date, category, and other metadata through intuitive dropdowns, buttons, and interactive controls—ideal for customized analytics and user-driven insights.
 
 - **🕸️ Real-Time Data Scraping Engine**
 
@@ -22,17 +22,16 @@ A full-stack supermarket dashboard that seamlessly combines real-time data scrap
 
 - **🧩 Clean & Modular UI Architecture**
 
-  Built with React and SCSS, the interface features a well-structured component hierarchy and consistent visual styling — resulting in a clean, coherent UI that enhances readability and user focus.
+  Built with React and SCSS, the interface features well-structured component hierarchy and consistent visual styling—resulting in clean, coherent UI that enhances readability and user focus.
 
 ## 📁 Project Structure
 
 ```bash
 supermarket-app/
-├── backend/                # Flask backend code
+├── Backend/                # Flask backend code
 │   ├── server.py           # Application entry point, defines routes and API endpoints
 │   └── mongo_db.py         # MongoDB connection and query utilities
-├── frontend/               # React frontend code
-│   ├── public/             # Static assets and HTML template
+├── Front-end/              # React frontend code
 │   ├── src/                # Source code for the React app
 │   │   ├── components/     # Reusable UI components
 │   │   ├── pages/          # Top-level page views
@@ -44,51 +43,53 @@ supermarket-app/
 └── .gitignore              # Files and folders excluded from Git
 ```
 
-## 🛠 Tech Stack
+## 🛠️ Tech Stack
 
-- **Data Scraping**: Python — `requests`, `Selenium`, `BeautifulSoup`, etc.
+- **Data Scraping**: `requests`, `Selenium`, `BeautifulSoup`
 
-- **Backend**: Python — `Flask`
+- **Backend**: `Flask`, `Python`
 
 - **Database**: `MongoDB`
 
-- **Frontend**: `React`, `Node.js`, `SCSS`, `React Router`
+- **Frontend**: `React`, `React Router`, `Node.js`
 
-- **UI & Visualization**: `Material UI`, `Plotly`
+- **UI & Styling**: `Material UI`, `SCSS`
+
+- **Data Visualization**: `Plotly`
 
 ## ⚙️ Dependencies
 
-- **MongoDB** – Required for data storage
+- **MongoDB** — Required for data storage
   👉 [Download MongoDB](https://www.mongodb.com/try/download/community)
 
-- **Node.js** – Required for running the frontend and installing packages
+- **Node.js** — Required for running the frontend and installing packages
   👉 [Download Node.js](https://nodejs.org/en/download)
 
-- **Yarn** – Package manager (alternative to npm)
+- **Yarn** — Package manager (alternative to npm)
 
   ```bash
   npm install -g yarn
   ```
 
-- **Sass (SCSS)** – For styling components
+- **Sass (SCSS)** — For styling components
 
   ```bash
   npm install -g sass
   ```
 
-- **React & Core Libraries** –  For building UI (if not already in `node_modules`)
+- **React & Core Libraries** — For building UI (if not already in `node_modules`)
 
   ```bash
   yarn add react react-dom
   ```
 
-- **React Router** – For client-side routing (if not already in `node_modules`)
+- **React Router** — For client-side routing (if not already in `node_modules`)
 
   ```bash
   yarn add react-router-dom
   ```
 
-- **Plotly.js** – For data visualization (if not already in `node_modules`)
+- **Plotly.js** — For data visualization (if not already in `node_modules`)
 
   ```bash
   yarn add react-plotly.js plotly.js
@@ -112,19 +113,33 @@ supermarket-app/
 3. **Start the backend server**
 
    ```bash
-   cd backend
+   cd Backend
    python server.py
    ```
 
-4. **Start the frontend application**
+4. **Install frontend dependencies**
 
    ```bash
-   cd frontend
+   cd Front-end
    yarn install
+   ```
+
+5. **Start the frontend application**
+
+   ```bash
    yarn start
    ```
 
-## Prototype & UI Design
+## 🎨 Prototype & UI Design
 
-🧭 **Interactive Prototype**: [Preview on Axure](https://fmnpuv.axshare.com)
-🎨 **UI Design Draft**: [View on Figma](https://www.figma.com/design/C0Gs7wvccClKINq0cimLF7/PYTHON-PROJECT?node-id=0-1&t=a6rjOJfwVpdokYmn-1)
+🧭 **Interactive Prototype**: [Preview on Axure](https://fmnpuv.axshare.com) | 🎨 **UI Design Draft**: [View on Figma](https://www.figma.com/design/C0Gs7wvccClKINq0cimLF7/PYTHON-PROJECT?node-id=0-1&t=a6rjOJfwVpdokYmn-1)
+
+## 📧 Contact
+
+Henry Li - [GitHub Profile](https://github.com/HenryyyLI)
+
+Project Link: [https://github.com/HenryyyLI/supermarket-app](https://github.com/HenryyyLI/supermarket-app)
+
+---
+
+⭐ If you find this project useful, please consider giving it a star!
